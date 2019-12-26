@@ -1,0 +1,260 @@
+* {
+    padding: 0;
+    margin: 0
+}
+
+body {
+    height: 3574px;
+    font-weight: bold;
+    background-color: white;
+    color: #f57365;
+    color: #424242;
+}
+
+container {
+    width: 1170px
+}
+
+.clearfix {
+    clear: both
+}
+
+/**Start nav-bar**/
+
+header nav .nav-links {
+    margin-top: 50px;
+    direction: rtl;
+}
+
+header nav li {
+    display: inline
+}
+
+header nav a {
+    display: inline-block;
+    margin-right: 26px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/**Start Header**/
+header {
+    background: URL('../imges/imges.jpg');
+    height: 881px;
+    background-size: cover;
+    margin-bottom: 80px
+}
+
+header .heading {
+    text-align: center;
+    margin-top: 285px;
+}
+
+header .heading p {
+    font-size: 36px;
+    color: #e7d5d7;
+    text-align: center;
+    margin-bottom: -75px;
+    margin-right: auto;
+}
+
+header .heading h1 {
+    font-size: 100px;
+    margin-top: 70px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header .heading button {
+    width: 280px;
+    height: 65px;
+    background-color: transparent;
+    border: 5px solid white;
+    color: white;
+    margin-bottom: 39px;
+    display: inline-block;
+}
+
+header .heading span {
+    color: white;
+    font-size: 14px
+}
+
+/**end Header**/
+
+
+
+/**Start socal **/
+.socal {
+    height: 240px;
+    text-align: center;
+    margin-bottom: 134px
+}
+
+.socal h3 {
+    color: black;
+    font-size: 18px;
+}
+
+.socal hr {
+    height: 1px;
+    background: #f57365;
+    width: 90px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width:992px) {
+    .socal {
+        height: 19%;
+    }
+}
+
+/**end socal **/
+
+
+
+.INTRODUCING {
+    background-color: #f7f7f7;
+    color: #848484;
+    padding-top: 100px
+}
+
+.INTRODUCING .phone img {
+    width: 469px;
+
+}
+
+.INTRODUCING h3 {
+    font-size: 18px;
+    margin: 0
+}
+
+.INTRODUCING .FUDI-APP hr {
+    height: 1px;
+    background: #f57365;
+    width: 90px;
+    margin-top: 8px;
+    margin-bottom: 13px;
+}
+
+.INTRODUCING p {
+    margin-bottom: 27px
+}
+
+.FUDI-APP {
+    padding-top: 63px
+}
+
+@media (max-width:1200px) {
+    .INTRODUCING .phone img {
+        width: 421px;
+    }
+}
+
+@media (max-width:1009px) {
+    .INTRODUCING .phone img {
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+
+/** start quto-Michael**/
+/** start quto-Michael**/
+.owl-carousel {
+    text-align: center;
+    background: url(../imges/quate.png);
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 70px
+}
+
+.owl-carousel blockquote {
+    border: none;
+    font-size: 30px;
+    opacity: .2;
+    font-weight: normal;
+}
+
+.owl-carousel .owl-item img{
+    padding-bottom: 35px;
+    width: 141px;
+    margin: 0 auto
+}
+
+.owl-carousel span {
+    font-size: 18px;
+    opacity: .2;
+}
+
+
+
+
+/** Start BROWSE-BY-CUISINES**/
+
+.BROWSE-BY-CUISINES {
+    padding-top: 95px;
+    text-align: center
+}
+
+.BROWSE-BY-CUISINES hr {
+    height: 1px;
+    background: #f57365;
+    width: 90px;
+    display: inline-block;
+}
+
+.photo-food img {
+    width: 20%;
+    float: left;
+    margin-bottom: -20px;
+
+}
+
+.BROWSE-BY-CUISINES .Active-Users {
+    width: 20%;
+    float: left;
+    padding: 60px 0 60px 0
+}
+.BROWSE-BY-CUISINES .Active-Users h3 {
+color: black
+}
+.BROWSE-BY-CUISINES .Active-Users p {
+color: #848484
+}
+@media (max-width:992px){
+    .BROWSE-BY-CUISINES .Active-Users h2{
+        font-size: 25px;
+}
+        .BROWSE-BY-CUISINES .Active-Users p{
+        font-size: 10px;
+}
+}
+
+
+
+
+/**Start footer**/
+
+footer {
+    height: 90px;
+    background-color: #f7f7f7;
+    color: #848484
+}
+
+footer  p {
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 40px;
+}
+
+footer text-footer {
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 40px;
+}

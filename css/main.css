@@ -4,7 +4,7 @@
 }
 
 body {
-    height: 3574px;
+    height: 3564px;
     font-weight: bold;
     background-color: white;
     color: #f57365;
@@ -110,7 +110,7 @@ header .heading span {
 
 @media (max-width:992px) {
     .socal {
-        height: 19%;
+        height: 22%;
     }
 }
 
@@ -161,8 +161,10 @@ header .heading span {
         margin: 0 auto;
         display: block;
     }
+    .FUDI-APP {
+       padding-bottom: 63px;
 }
-
+}
 
 /** start quto-Michael**/
 /** start quto-Michael**/
@@ -191,7 +193,11 @@ header .heading span {
     font-size: 18px;
     opacity: .2;
 }
-
+@media (max-width:992px){
+ .owl-carousel blockquote {
+    font-size: 23px;
+}   
+}
 
 
 
@@ -209,12 +215,6 @@ header .heading span {
     display: inline-block;
 }
 
-.photo-food img {
-    width: 20%;
-    float: left;
-    margin-bottom: -20px;
-
-}
 
 .BROWSE-BY-CUISINES .Active-Users {
     width: 20%;
@@ -227,16 +227,29 @@ color: black
 .BROWSE-BY-CUISINES .Active-Users p {
 color: #848484
 }
+@media (max-width:1537px){
+    .photo-food img {
+    width: 20%;
+    float: left;
+    margin-bottom: -20px;
+
+}
+}
 @media (max-width:992px){
     .BROWSE-BY-CUISINES .Active-Users h2{
-        font-size: 25px;
+        font-size: 20px;
+        font-weight: bold
 }
         .BROWSE-BY-CUISINES .Active-Users p{
         font-size: 10px;
+    } 
+                .photo-food img {
+    width: 33.33%;
+    float: left;
+    margin-bottom: -20px;
+
 }
 }
-
-
 
 
 /**Start footer**/
